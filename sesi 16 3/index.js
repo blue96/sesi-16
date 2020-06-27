@@ -28,7 +28,7 @@ for (let i = 0; i < library.length;i++){
     }
     else {
         console.log(`You still need to read '${library[i].title}' by ${library[i].author}`)
-        txt += `<div style="float: left; margin-left: 5%"><img src="${library[i].images}" width=400px><br>Already read '${library[i].author}' by ${library[i].title}</div>`
+        txt += `<div style="float: left; margin-left: 5%"><img src="${library[i].images}" width=400px><br>You still need to read '${library[i].title}' by ${library[i].author}</div>`
     }
 }
 hasil.innerHTML = txt
